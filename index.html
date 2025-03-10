@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Pizzapania is a website for ordering pizza online.">
+      <meta name="keywords" content="pizza, order pizza, pizza online, pizzapania">
+      <meta name="author" content="Pizzapania">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Pizzapania</title>
+      
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+      <link rel="stylesheet" href="assets/css/remixicon.css">
+
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+      <link rel="stylesheet" href="assets/css/styles.css">
+   </head>
+   
+   <body>
+
+      <header class="header" id="header">
+         
+         <nav class="nav container">
+            
+            <a href="#" class="nav__logo">
+               
+               <img src="assets/img/pizzapania.svg" alt="logo image">
+               Pizzapania
+               
+            </a><!--.nav__logo-->
+            
+            <div class="nav__menu" id="nav-menu">
+               
+               <ul class="nav__list">
+                  
+                  <li><a href="#home" class="nav__link active-link">Home</a></li>
+                  
+                  <li><a href="#about" class="nav__link">About Us</a></li>
+                  
+                  <li><a href="#popular" class="nav__link">Popular</a></li>
+                  
+                  <li><a href="#products" class="nav__link">Products</a></li>
+                  
+                  <li><a href="#contact" class="nav__link">Contact</a></li>
+                  
+                  <li class="nav__account"> 
+                     <a class="nav__account-link" href="#" aria-label="Account">
+                        <i class="ri-user-line"></i>
+                        Account
+                     </a>
+                  </li>
+               
+               </ul><!--.nav__list -->
+
+               <div class="nav__close" id="nav-close" aria-label="Close menu">
+                  
+                  <i class="ri-close-large-line"></i>
+                  
+               </div><!--.nav__close -->
+               
+            </div><!--.nav__menu -->
+            
+            
+            <div class="nav__right-content">
+               
+               <div class="nav__account">
+                  
+                  <a class="nav__account-link" href="#" aria-label="Account">
+                     <i class="ri-user-line"></i>
+                     Account
+                  </a>
+                  
+               </div>
+               
+               <div class="nav__cart">
+                  
+                  <a href="#" aria-label="Go Cart page"><i class="ri-shopping-cart-line"></i></a>
+                  
+               </div><!--.nav__cart-->
+   
+               <div class="nav__toggle" id="nav-toggle"  aria-label="Open menu">
+                  
+                  <i class="ri-menu-3-line"></i>
+                  
+               </div><!--.nav__toggle-->
+               
+            </div>
+         </nav>
+         
+      </header>
+
+      <main class="main">
+
+         <section id="home" class="home section">
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <p class="section__smalltext">Beyond the Crust</p>
+                  <h1 class="home__title">Irresistibly Crunchy & Flavorful Pizzas</h1>
+                  <p class="home__description">
+                     Satisfy Your Cravings with the Best Pizzas – Perfect for Family Moments!
+                  </p>
+                  <a href="#about" class="button home__button">Discover More</a>
+                  <a href="tel:9875346785" class="button-request"><i class="ri-phone-fill"></i> Request a call</a>
+               
+                  <img src="assets/img/home-leaf-2.png" alt="leaf green" class="home__sticker-1">
+                  <img src="assets/img/home-leaf-2.png" alt="leaf green" class="home__sticker-2">
+               </div>
+               
+               <div class="home__images">
+                  <img src="assets/img/home-pizza.png" alt="pizza" class="home__pizza">
+                  <img src="assets/img/home-board.png" alt="board" class="home__board">
+                  
+                  <img src="assets/img/home-leaf-1.png" alt="leaf 1" class="home__ingredient floating home__leaf-1">
+                  <img src="assets/img/home-leaf-2.png" alt="leaft 2" class="home__ingredient floating home__leaf-2">
+                  <img src="assets/img/home-pepperoni.png" alt="pepperoni toppings" class="home__ingredient floating home__pepperoni">
+                  <img src="assets/img/home-mushroom.png" alt="mushroom toppings" class="home__ingredient floating home__mushroom">
+                  <img src="assets/img/home-tomato.png" alt="tomato toppings" class="home__ingredient floating home__tomato">
+               </div>
+            </div>
+         </section>
+         
+         
+         <section id="about" class="about section">
+            <div class="about__container container grid">
+               <div class="about__data">
+                  
+                  <p class="section__smalltext">A Tradition of Excellence</p>
+                  
+                  <h2 class="section__title">Discover the Story Behind Our Journey</h2>
+                  
+                  <div class="about__description">
+                     <p>Our secret lies in our time-honored recipes and the use of fresh, locally sourced ingredients. From hand-stretched dough to rich, savory sauces and premium toppings, we ensure that every pizza delivers an authentic taste that keeps our customers coming back for more.</p>
+                     <p>More than just a meal, our pizzas bring people together—whether it’s a family gathering, a celebration, or a simple craving for something delicious. At Pizzapania, we take pride in serving not just food, but memorable experiences, one slice at a time.</p>
+                  </div>
+                  
+                  <a href="#popular" class="button">Perfect Pizza</a>
+   
+                  <img src="assets/img/sticker-tomato.svg" alt="tomato" class="about__sticker">
+                  
+                  <img src="assets/img/sticker-mushroom.svg" alt="mushroom sticker" class="about__sticker-2">
+                  
+                  <img src="assets/img/sticker-onion.svg" alt="onion sticker" class="about__sticker-3">
+                  
+                  <!-- <img src="assets/img/sticker-cheese.svg" alt="cheeze" class="about__sticker"> -->
+               </div>
+               
+               <div class="about__images">
+                  <img src="assets/img/chef-kitchen-prepares-pizza.jpg" alt="" class="about__img">
+                  <img src="assets/img/chef-kitchen-prepares-pizza-2.jpg" alt="" class="about__img">
+               </div>
+
+            </div>
+         </section>
+         
+
+         <section id="popular" class="popular section">
+            <div class="popular__container container grid">
+               <div class="popular__data text-center">
+                  <p class="section__smalltext">Discover Popular Orders</p>
+                  <h2 class="section__title">Taste the favorites loved by many!</h2>
+                  <p class="popular__description">Enjoy the finest, most delicious flavors! We've gathered popular recipes from around the world so you can pick your favorite.</p>
+               </div>
+               
+               <div class="popular__swiper swiper">
+                  <img src="assets/img/popular-dish.png" alt="popular dish" class="popular__dish">
+                  
+                  <div class="popular__cards swiper-wrapper">
+                     <article class="popular__card swiper-slide">
+                        <img src="assets/img/popular-1.png" alt="" class="popular__img">
+                        <h3 class="popular__title">Margherita Pizza</h3>
+                        <a href="#products" class="button popular__button">Grab Yours</a>
+                     </article>
+                     <article class="popular__card swiper-slide">
+                        <img src="assets/img/popular-2.png" alt="" class="popular__img">
+                        <h3 class="popular__title">Mushroom Pizza</h3>
+                        <a href="#products" class="button popular__button">Grab Yours</a>
+                     </article>
+                     <article class="popular__card swiper-slide">
+                        <img src="assets/img/popular-3.png" alt="" class="popular__img">
+                        <h3 class="popular__title">Pepperoni Pizza</h3>
+                        <a href="#products" class="button popular__button">Grab Yours</a>
+                     </article>
+                     
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         
+         <section id="products" class="products section">
+            
+            <div class="container grid">
+               <div class="products__data text-center">
+                  <p class="section__smalltext">Highly Rated & Delicious</p>
+                  <h2 class="section__title">Crowd-Favorite Pizzas</h2>
+               
+                  <p class="products__description">
+                     Loved by many, our top pizzas are crafted with the finest ingredients and bold flavors. Try the best picks that keep everyone coming back for more!
+                  </p>
+               </div>
+            </div><!--.container -->
+
+
+            <div class="tabs-container container tabs">
+               
+               <ul class="tabs__titles" aria-labelledby="tabs-title">
+                  <li><a id="tab-1" class="tabs__title" href="#pizza">Pizza</a></li>
+                  <li><a id="tab-2" class="tabs__title" href="#side-dish">Side Dish</a></li>
+                  <li><a id="tab-3" class="tabs__title" href="#salads">Salads</a></li>
+                  <li><a id="tab-4" class="tabs__title" href="#drink">Drinks</a></li>
+               </ul>
+         
+               <div class="tabs__panels">
+                  <div id="pizza" class="tabs__content-1" aria-labelledby="tab-1">
+                     <div class="products__container grid">
+                        
+                        <article class="products__card">
+                           <img src="assets/img/product-6.png" alt="" class="products__img">
+                           
+                           <span class="products__text">500g &bull; 45cm</span>
+                           <h3 class="products__name">Tomato Pesto</h3>
+                           <p class="products__text">Fresh tomatoes, basil pesto, mozzarella, and parmesan on a crispy thin crust.</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$14</span>
+                              <a href="#" aria-label="Go Cart page" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+               
+                        <article class="products__card">
+                           <img src="assets/img/product-1.png" alt="" class="products__img">
+                           
+                           <span class="products__text">500g &bull; 45cm</span>
+                           <h3 class="products__name">Vegetarian</h3>
+                           <p class="products__text">Bell peppers, mushrooms, onions, olives, tomatoes, and mozzarella on a tomato-based crust.</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$13</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+                        
+                        <article class="products__card">
+                           <img src="assets/img/product-2.png" alt="" class="products__img">
+                           
+                           <span class="products__text">500g &bull; 45cm</span>
+                           <h3 class="products__name">Pepperoni</h3>
+                           <p class="products__text">Classic tomato sauce, melted mozzarella, and spicy pepperoni slices.</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$12</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+                        
+                        <article class="products__card">
+                           <img src="assets/img/product-4.png" alt="" class="products__img">
+                           
+                           <span class="products__text">500g &bull; 45cm</span>
+                           <h3 class="products__name">Mushroom</h3>
+                           <p class="products__text">A blend of fresh mushrooms, garlic, mozzarella, and creamy white sauce.</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$13</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+
+                        <article class="products__card">
+                           <img src="assets/img/product-3.png" alt="" class="products__img">
+                           
+                           <span class="products__text">500g &bull; 45cm</span>
+                           <h3 class="products__name">Margherita</h3>
+                           <p class="products__text">Tomato sauce, fresh mozzarella, basil, and a drizzle of olive oil.</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$12</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+
+                        <article class="products__card">
+                           <img src="assets/img/product-5.png" alt="" class="products__img">
+                           
+                           <span class="products__text">500g &bull; 45cm</span>
+                           <h3 class="products__name">Italian</h3>
+                           <p class="products__text">Prosciutto, arugula, sun-dried tomatoes, parmesan, and mozzarella on a tomato base.</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$15</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+
+                     </div>
+                  </div>
+                  
+                  <div id="side-dish" class="tabs__content-2" aria-labelledby="tab-2">
+                     <div class="products__container grid">
+                        
+                        <article class="products__card">
+                           <img src="assets/img/side-dish-1.png" alt="" class="products__img">
+                           
+                           <span class="products__text">250g</span>
+                           <h3 class="products__name">Onion Rings</h3>
+                           <p class="products__text">Crispy golden-battered onion rings served with a side of tangy dipping sauce.</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$5</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+               
+                        <article class="products__card">
+                           <img src="assets/img/side-dish-2.png" alt="" class="products__img">
+                           
+                           <span class="products__text">500g</span>
+                           <h3 class="products__name">Chicken Wings</h3>
+                           <p class="products__text">Juicy chicken wings coated in your choice of Buffalo, smoky BBQ, or rich Garlic Parmesan sauce.</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$12</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+                        
+                        <article class="products__card">
+                           <img src="assets/img/side-dish-3.png" alt="" class="products__img">
+                           
+                           <span class="products__text">300g</span>
+                           <h3 class="products__name">Mozzarella Sticks</h3>
+                           <p class="products__text">Crunchy on the outside, gooey on the inside—fried mozzarella sticks served with marinara sauce.</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$8</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+                        
+
+
+                     </div>
+                  </div>
+                  
+                  <div id="salads" class="tabs__content-3" aria-labelledby="tab-3">
+                     <div class="products__container grid">
+                        
+                        <article class="products__card">
+                           <img src="assets/img/product-6.png" alt="" class="products__img">
+                           
+                           <span class="products__text">500g &bull; 45cm</span>
+                           <h3 class="products__name">Tomato Pesto</h3>
+                           <p class="products__text">All beef hotdog, pickles, red onion, pepperoncini and tomato</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$12</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+               
+                        <article class="products__card">
+                           <img src="assets/img/product-1.png" alt="" class="products__img">
+                           
+                           <span class="products__text">500g &bull; 45cm</span>
+                           <h3 class="products__name">Vegetarian</h3>
+                           <p class="products__text">All beef hotdog, pickles, red onion, pepperoncini and tomato</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$15</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+                        
+                        <article class="products__card">
+                           <img src="assets/img/product-2.png" alt="" class="products__img">
+                           
+                           <span class="products__text">500g &bull; 45cm</span>
+                           <h3 class="products__name">Pepperoni</h3>
+                           <p class="products__text">All beef hotdog, pickles, red onion, pepperoncini and tomato</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$10</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+                        
+                        <article class="products__card">
+                           <img src="assets/img/product-4.png" alt="" class="products__img">
+                           
+                           <span class="products__text">500g &bull; 45cm</span>
+                           <h3 class="products__name">Mushroom</h3>
+                           <p class="products__text">All beef hotdog, pickles, red onion, pepperoncini and tomato</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$17</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+
+                        <article class="products__card">
+                           <img src="assets/img/product-3.png" alt="" class="products__img">
+                           
+                           <span class="products__text">500g &bull; 45cm</span>
+                           <h3 class="products__name">Margherita</h3>
+                           <p class="products__text">All beef hotdog, pickles, red onion, pepperoncini and tomato</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$12</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+
+                        <article class="products__card">
+                           <img src="assets/img/product-5.png" alt="" class="products__img">
+                           
+                           <span class="products__text">500g &bull; 45cm</span>
+                           <h3 class="products__name">Italian</h3>
+                           <p class="products__text">All beef hotdog, pickles, red onion, pepperoncini and tomato</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$12</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+
+                     </div>
+                  </div>
+                  
+                  <div id="drink" class="tabs__content-4" aria-labelledby="tab-4">
+                     <div class="products__container grid">
+                        
+                        <article class="products__card">
+                           <img src="assets/img/product-6.png" alt="" class="products__img">
+                           
+                           <span class="products__text">500g &bull; 45cm</span>
+                           <h3 class="products__name">Tomato Pesto</h3>
+                           <p class="products__text">All beef hotdog, pickles, red onion, pepperoncini and tomato</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$12</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+               
+                        <article class="products__card">
+                           <img src="assets/img/product-1.png" alt="" class="products__img">
+                           
+                           <span class="products__text">500g &bull; 45cm</span>
+                           <h3 class="products__name">Vegetarian</h3>
+                           <p class="products__text">All beef hotdog, pickles, red onion, pepperoncini and tomato</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$15</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+                        
+                        <article class="products__card">
+                           <img src="assets/img/product-2.png" alt="" class="products__img">
+                           
+                           <span class="products__text">500g &bull; 45cm</span>
+                           <h3 class="products__name">Pepperoni</h3>
+                           <p class="products__text">All beef hotdog, pickles, red onion, pepperoncini and tomato</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$10</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+                        
+                        <article class="products__card">
+                           <img src="assets/img/product-4.png" alt="" class="products__img">
+                           
+                           <span class="products__text">500g &bull; 45cm</span>
+                           <h3 class="products__name">Mushroom</h3>
+                           <p class="products__text">All beef hotdog, pickles, red onion, pepperoncini and tomato</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$17</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+
+                        <article class="products__card">
+                           <img src="assets/img/product-3.png" alt="" class="products__img">
+                           
+                           <span class="products__text">500g &bull; 45cm</span>
+                           <h3 class="products__name">Margherita</h3>
+                           <p class="products__text">All beef hotdog, pickles, red onion, pepperoncini and tomato</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$12</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+
+                        <article class="products__card">
+                           <img src="assets/img/product-5.png" alt="" class="products__img">
+                           
+                           <span class="products__text">500g &bull; 45cm</span>
+                           <h3 class="products__name">Italian</h3>
+                           <p class="products__text">All beef hotdog, pickles, red onion, pepperoncini and tomato</p>
+                           
+                           <div class="products__card-footer">
+                              <span class="products__price">$12</span>
+                              <a href="#" class="products__button">
+                                 <i class="ri-shopping-cart-line"></i>
+                                 <span>Add to Cart</span>
+                              </a>
+                           </div>
+                        </article>
+
+                     </div>
+                  </div>
+               </div>
+               
+            </div><!--.tabs-container -->
+              
+            
+         </section>
+         
+
+
+        
+      </main>
+      
+
+      <footer class="footer">
+         
+         <div class="footer__container container grid">
+            
+            <a href="#" class="footer__logo">Pizzapania</a>
+            
+            <div class="footer__content grid">
+               
+               <div class="footer__content-item">
+                  <h3 class="footer__title">Social</h3>
+                  <div class="footer__social">
+                     <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-circle-fill"></i>
+                     </a>
+                     <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-fill"></i>
+                     </a>
+                     <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-twitter-x-line"></i>
+                     </a>
+                  </div>
+               </div>
+               
+               <div class="footer__content-item">
+                  <h3 class="footer__title">Payment Methods</h3>
+                  
+                  <div class="footer__pay">
+                     <img src="assets/img/footer-card-1.png" alt="" class="footer__pay-img">
+                     <img src="assets/img/footer-card-2.png" alt="" class="footer__pay-img">
+                     <img src="assets/img/footer-card-3.png" alt="" class="footer__pay-img">
+                     <img src="assets/img/footer-card-4.png" alt="" class="footer__pay-img">
+                  </div>
+               </div>
+               
+               <div class="footer__content-item">
+                  <h3 class="footer__title">Subscribe For Discounts</h3>
+                  
+                  <form action="" class="footer__form">
+                     <input type="text" placeholder="Email" class="footer__input">
+                     <button type="submit" class="footer__button button">Subscribe</button>
+                  </form>
+               </div>
+               
+            </div><!--.footer__content -->
+            
+         </div><!--.footer__container -->
+         
+         <div class="footer__policy">
+            
+            <a href="#" class="footer__link">Terms & Agreements</a>
+            <a href="#" class="footer__link">Privacy Policy</a>
+            
+         </div><!--.footer__policy -->
+         
+         <span class="footer__copy">
+            &#169; All Rights Reserved By Pizzapania
+         </span><!--.footer__copy -->
+         
+      </footer>
+
+
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      
+          
+      <!-- SCROLLREVEAL -->
+      <script src="assets/js/scrollreveal.min.js"></script>
+      
+      <!-- SWIPER JS -->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!-- MAIN JS -->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
