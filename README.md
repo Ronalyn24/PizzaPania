@@ -26,8 +26,8 @@ We are working on making **PizzaPania** a dynamic WordPress website:
 ## ⚡ Status: Work in Progress  
 This project is actively being developed. Stay tuned for updates!  
 
-## 🌍 Live Demo (Coming Soon)
-🔗 *(Will be hosted on Netlify or another platform once completed.)*
+## 🌍 Live Demo (Work in Progress)
+🔗 *[View Project]([https://plantitos.netlify.app/](https://pizzapania.netlify.app/)
 
 ## 📥 How to Use
 1. Clone the repository:
