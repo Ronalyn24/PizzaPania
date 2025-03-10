@@ -33,19 +33,3 @@ This project is actively being developed. Stay tuned for updates!
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/pizzapania.git
-
-
-**PizzaPania** is an interactive pizza-ordering website designed to provide a smooth and fun user experience. This project is currently under development.
-
-## 🚀 Features (Planned & In Progress)
-✅ Responsive design  
-✅ Custom pizza builder UI  
-🚧 Dynamic pricing system *(In Progress)*  
-🚧 Checkout integration *(Planned)*  
-
-## 🛠️ Technologies Used
-- HTML, CSS, JavaScript
-- (Planned: WordPress, WooCommerce, PHP for backend)
-
-## ⚡ Status: Work in Progress  
-This project is actively being developed. Stay tuned for updates!  
