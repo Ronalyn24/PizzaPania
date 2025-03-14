@@ -10,7 +10,9 @@
 - ⚡ **Optimized Performance** – Lightweight and fast-loading.
 - 🌟 **Upcoming Feature: WordPress Integration** – Planning to convert this into a WooCommerce-powered site.
 
-[Pizzapania html google lighthouse score] (https://github.com/Ronalyn24/PizzaPania/edit/main/pizzapania-lighthouse-score.jpg)
+## 📊 Performance Score
+
+![Lighthouse Score](https://github.com/Ronalyn24/PizzaPania/blob/main/pizzapania-lighthouse-score.jpg)
 
 ## 🔥 Upcoming Features
 We are working on making **PizzaPania** a dynamic WordPress website:
